@@ -1,0 +1,35 @@
+{
+  "name": "mro-js",
+  "version": "0.0.1",
+  "description": "JavaScript inheritence with Python-style Module Resolution Order (MRO)",
+  "main": "dist/mro.js",
+  "scripts": {
+    "test": "node spec/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evenicoulddoit/mro-js.git"
+  },
+  "keywords": [
+    "inheritence",
+    "mro",
+    "class"
+  ],
+  "author": "Ian Clark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evenicoulddoit/mro-js/issues"
+  },
+  "homepage": "https://github.com/evenicoulddoit/mro-js#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.14.0",
+    "eslint": "^3.4.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-shell": "^0.5.2",
+    "jasmine": "^2.4.1"
+  },
+  "dependencies": {
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}
